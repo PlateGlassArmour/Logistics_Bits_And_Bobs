@@ -471,8 +471,8 @@ data:extend ({
     draw_logistic_radius_visualization = true,
     draw_construction_radius_visualization = true,
 	
-    circuit_wire_connection_point = circuit_connector_definitions["roboport"].points,
-    circuit_connector_sprites = circuit_connector_definitions["roboport"].sprites,
+    circuit_wire_connection_point = circuit_connector_definitions["programmable-speaker"].points,
+    circuit_connector_sprites = circuit_connector_definitions["programmable-speaker"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
 	
     default_available_logistic_output_signal = {type = "virtual", name = "signal-X"},
@@ -896,6 +896,7 @@ data:extend ({
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "bumble-bot-base"},
     max_health = 300,
+	fast_replaceable_group = "roboport",
     corpse = "big-remnants",
 	collision_box = {{-1.7, -1.7}, {1.7, 1.7}},
     selection_box = {{-2, -2}, {2, 2}},
@@ -920,14 +921,14 @@ data:extend ({
     },
     recharge_minimum = "0J",
     energy_usage = "0J",
-    charging_energy = "0W",
+    charging_energy = "10kW",
     logistics_radius = 4,
     construction_radius = 50,
     charge_approach_distance = 0,
     robot_slots_count = 5,
     material_slots_count = 3,
     stationing_offset = {0, -1},
-    charging_offsets =  {},
+    charging_offsets =  {{0,-1.5}},
     base =
     {
 	layers = {

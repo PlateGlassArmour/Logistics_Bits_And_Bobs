@@ -1,10 +1,10 @@
 {
 "name": "Logistics_Bits_And_Bobs",
-"version": "0.3.0",
+"version": "0.3.1",
 "title": "Logistics_Bits_And_Bobs",
 "author": "dinoc",
 "contact": "",
-"homepage": "https://mods.factorio.com/mod/Logistics_Bits_And_Bobs",
+"homepage": "https://github.com/PlateGlassArmour/Logistics_Bits_And_Bobs",
 "dependencies": [],
 "factorio_version": "0.17",
 "description": "This mod adds a few logistics structures and lower tier early game bots."

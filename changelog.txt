@@ -10,7 +10,7 @@ Date: 11. 4. 2019
     - Fixed circuit wire connection points for several models
   Changes:
   	- Made bumble bot bases fast replaceable with roboports
-    - Added trickle charge to bumble bot bases so regular bots could no longer get stuck there.
+    - Added trickle charge to bumble bot bases so regular bots could no longer get stuck there
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 05. 4. 2019

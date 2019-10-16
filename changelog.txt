@@ -1,0 +1,28 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 16. 10. 2019
+  Changes:
+    - Added official changelog
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 11. 4. 2019
+  Bugfixes:
+    - Fixed circuit wire connection points for several models
+  Changes:
+  	- Made bumble bot bases fast replaceable with roboports
+    - Added trickle charge to bumble bot bases so regular bots could no longer get stuck there.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 05. 4. 2019
+  Major Features:
+    - Long range transmitter and bot/base upgrades to normal bots/roboports
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 30. 3. 2019
+  Major Features:
+    - Early game bots
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 29. 3. 2019
+  Major Features:
+    - Basic structures and chests
